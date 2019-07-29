@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nexus Aquarium Events</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+	<script src="javascript/script.js" type="text/javascript"></script>
+</head>
+<body class="events">
+	<div class="navbar">
+			<div class="logo">
+				<img src="images/fish-logo1.png">
+			</div>
+			<div class="nav">
+			    <ul class="nav-list">
+			    <li class="nav-item"><a href="index.html">Home</a></li>
+			    <li class="nav-item"><a href="about.html">About us</a></li>
+			    <li class="nav-item"><a href="gallery.html">Gallery</a></li>
+			    <li class="nav-item"><a href="tour.html">Tour</a></li>
+			    <li class="nav-item"><a href="events.html" class="active">Events</a></li>
+			    <li class="nav-item"><a href="contact.html">Contact us</a></li>
+			    </ul>
+			</div>
+			<div id="mySidenav" class="sidenav">
+  				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  				<a href="index.html">Home</a>
+  				<a href="about.html">About us</a>
+  				<a href="gallery.html">Gallery</a>
+  				<a href="tour.html">Tour</a>
+  				<a href="events.html">Events</a>
+  				<a href="contact.html" class="active">Contact</a>
+			</div>
+	    </div>
+
+	    <span class="side" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+	    <br><br><br><br><br><br>
+<div class="time">
+<h3>Check out our Events</h3>
+<div class="timeline">
+  <div class="container left">
+    <div class="content">
+    	<img src="images/bg-main4.jpg">
+      <h2>Guided Tour</h2>
+      <p>Be thrilled by the ultimate experience of literarily walking under the sea! Come and take a full tour of our facility today. Expert tour guides will lead you through wide viewing halls and winding underwater tunnels, to see our wide variety of exotic creatures. Complimentary souvenirs and other fun activities are inclusive.<br>
+      <b>Booking Fee: $40 per person</b>
+      </p>
+      <!-- Trigger/Open The Modal -->
+		<button id="myBtn" class="btn" onclick="mod()">Book Event!</button>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+    	<img src="images/field trip.jpg">
+      <h2>School Field Trip</h2>
+      <p>Take your students on an educational adventure and explore the underwater world! This event package includes animal sightings, feeding time participation, quiz sessions with prizes, complimentary souvenir for all, and a dedicated tour guide to answer all questions and ensure the kids have a memorable outing.<br>
+      <b>Booking Fee: $25 per student <i>(free entry for two teachers only)</i></b>
+      </p>
+      <!-- Trigger/Open The Modal -->
+		<button id="myBtn2" class="btn" onclick="mod()">Book Event!</button>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+    	<img src="images/educational.jpg">
+      <h2>Family Funtime</h2>
+      <p>The family that has fun together, remains together. Take a day out with your family to visit us and enjoy our specially packaged Family Fun Tour! This includes a full tour of the facility, dolphin acrobatics, time out with penguins, and complimentary souvenir for all.<br>
+      <b>Booking Fee: $40 per adult and $30 per child below 18yrs old.</b>
+      </p>
+      <!-- Trigger/Open The Modal -->
+		<button id="myBtn3" class="btn" onclick="mod()">Book Event!</button>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+    	<img src="images/wedding.jpg">
+      <h2>Wedding Reservation</h2>
+      <p>We have the perfect setting for your wedding ceremonies! Delight your guests and loved ones by hosting your event in our serene atmosphere. A brief tour for guests is included in the package, as well as unique photo shoots for the couple.<br>
+      <b>Booking Fee: $100 per hour <i>(maximum of 150 guests)</i></b>
+	  </p>
+      <!-- Trigger/Open The Modal -->
+		<button id="myBtn4" class="btn" onclick="mod()">Book Event!</button>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+    	<img src="images/corporate.jpg">
+      <h2>Business and Pleasure</h2>
+      <p>Host you corporate events and end of year parties with us today. The soothing ambience of our facility is the perfect atmosphere for relaxing nerves and mingling with colleagues. Fun activities such as dolphin display, seal volleyball, and lots more are also included.<br>
+      <b>Booking Fee: $100 per person</b>  
+      </p>
+      <!-- Trigger/Open The Modal -->
+		<button id="myBtn5" class="btn" onclick="mod()">Book Event!</button>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+    	<img src="images/research.jpg">
+      <h2>Research Studies</h2>
+      <p>We accomodate a wide array of marine animals in their simulated natural habitat, which is an ideal setting for carrying out scientific research. Researchers and Scientists are welcome to come study them. Diving gear and canoe rides are available for research work only.<br>
+       <b>Booking Fee: $500 per day</b></p>
+      <!-- Trigger/Open The Modal -->
+		<button id="myBtn6" class="btn" onclick="mod()">Book Event!</button>
+    </div>
+  </div>
+  </div>
+</div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>Book your tickets NOW!</h2>
+    </div>
+    <div class="modal-body">
+      <form>
+      	<br><input type="text" name="fname" placeholder="First Name" required><br>
+      	<input type="text" name="lname" placeholder="Last Name" required><br>
+      	<input type="email" name="email" placeholder="Email" required><br>
+      	<input type="checkbox" name="event" value="Night">Guided Tour
+      	<input type="checkbox" name="event" value="Night">School Field Trip<br>
+      	<input type="checkbox" name="event" value="Night">Family Funtime
+      	<input type="checkbox" name="event" value="Night">Wedding Reservation<br>
+      	<input type="checkbox" name="event" value="Night">Business and Pleasure
+      	<input type="checkbox" name="event" value="Night">Research Studies<br>
+      	<input type="date" name="eday" max="3000-12-31" value="Day" required><br>
+      	<textarea name="message" placeholder="Please drop your comments or requests here..." rows="5" cols="30" required>
+			
+		</textarea><br>
+		<input type="submit" name="" value="Submit" onclick="alat()">
+      </form>
+    </div>
+    <div class="modal-footer">
+      <p>&copy; Nexus Aquarium 2017</p>
+    </div>
+  </div>
+
+</div>
+
+
+
+		<div class="footer">
+		   <p>&copy; <span class="nex">Nexus Aquaruim</span> 2017<a href="contact.html"><span class="social"><img src="images/facebook - Copy.jpg"><img src="images/instagram-icon--icon-search-engine-11 - Copy.png"><img src="images/twitter - Copy.png"></span><span class="feed">Feedback!</span></a></p>
+	    </div>
+
+	    <script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+<script>
+	function alat() {
+		// body...
+		alert("Successful!");
+	}
+</script>
+</body>
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="UTF-8">
+  <meta name="description" content="Aquaruim website">
+  <meta name="keywords" content="Aquaruim, nexus Aquaruim, Aquaruim website template">
+  <meta name="author" content="David (donmash) Marshal">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>contact us</title>
+	<link rel="stylesheet" type="text/css" media="all" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+	<link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body>
+	<div class="contact">
+	<div class="navbar">
+      <div class="logo">
+        <a href="index.html"><img src="images/fish-logo1.png"></a>
+      </div>
+      <div class="nav">
+          <ul class="nav-list">
+			    <li class="nav-item"><a href="index.html">Home</a></li>
+			    <li class="nav-item"><a href="about.html">About us</a></li>
+			    <li class="nav-item"><a href="gallery.html">Gallery</a></li>
+			    <li class="nav-item"><a href="tour.html">Tour</a></li>
+			    <li class="nav-item"><a href="events.html">Events</a></li>
+			    <li class="nav-item"><a href="contact.html" class="active">Contact us</a></li>
+			    </ul>
+      </div>
+      <div id="mySidenav" class="sidenav">
+  				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  				<a href="index.html">Home</a>
+  				<a href="about.html">About us</a>
+  				<a href="gallery.html">Gallery</a>
+  				<a href="tour.html">Tour</a>
+  				<a href="events.html">Events</a>
+  				<a href="contact.html" class="active">Contact</a>
+			</div>
+      </div>
+
+      <span class="side" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+      <div class="main">
+      	<h3>Contact us</h3>
+      <div class="map">
+      <div id="floating-panel">
+      <strong>......Start:</strong>
+      <input type="text" id="start" name="" placeholder="Where are you coming from?" value="">
+      <br>
+      <strong>Nexux Aquaruim:</strong>
+      <input type="text" id="end" name="" value="Washington" readonly>
+    </div>
+    <div id="map"><div class="contacttxt">
+      			<p><b>Address:</b> We're located at 2847<br>university street<br>Seatle Washington.<br>
+      				<b>Phone:</b> 2063651375<br>
+      				<b>Email:</b> info@nexusaqua.com.</p>
+	        </div>Connect to the internet for map directions<br>Connect to the internet to view text directions on the right panel. If map is showing then enter your current possition to show text direction.</div>
+    <div id="right-panel"></div>
+
+      </div>
+
+      <div class="contactcont">
+      	
+      		<!-- <div class="contacttxt">
+      			<p><b>Address:</b> We're located at 2847<br>university street<br>Seatle Washington.<br>
+      				<b>Phone:</b> 2063651375<br>
+      				<b>Email:</b> info@nexusaqua.com.</p><br><br>
+		        <span class="nexus">Leave<br>Your<br>Message.</span>
+	        </div> -->
+
+     <div class="form">
+     	<label for="fname" style="background-color: #5b3303; padding: 15px;"><strong>Feed Back</strong></label><br><br>
+  <form action="">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+
+    <label for="email">Email</label>
+    <input type="email" id="lname" name="email" placeholder="Your Email.." required>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
+
+    <input type="submit" value="Submit" onclick="alat()">
+  </form>
+</div>
+    
+      	
+      </div>
+
+      <div class="contacttxt">
+      			<p><b>Address:</b> We're located at 2847<br>university street<br>Seatle Washington.<br>
+      				<b>Phone:</b> 2063651375<br>
+      				<b>Email:</b> info@nexusaqua.com.</p>
+	        </div>
+
+      </div>
+		
+		<div class="footer">
+		   <p>&copy; <span class="nex">Nexus Aquaruim</span> 2017<a href="contact.html"><span class="social"><img src="images/facebook - Copy.jpg"><img src="images/instagram-icon--icon-search-engine-11 - Copy.png"><img src="images/twitter - Copy.png"></span></p>
+	    </div>
+	</div>
+
+<script>
+      function initMap() {
+        var directionsDisplay = new google.maps.DirectionsRenderer;
+        var directionsService = new google.maps.DirectionsService;
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 7,
+          center: {lat: 41.85, lng: -87.65}
+        });
+        directionsDisplay.setMap(map);
+        directionsDisplay.setPanel(document.getElementById('right-panel'));
+
+        var control = document.getElementById('floating-panel');
+        control.style.display = 'block';
+        map.controls[google.maps.ControlPosition.TOP_CENTER].push(control);
+
+        var onChangeHandler = function() {
+          calculateAndDisplayRoute(directionsService, directionsDisplay);
+        };
+        document.getElementById('start').addEventListener('change', onChangeHandler);
+        document.getElementById('end').addEventListener('change', onChangeHandler);
+      }
+
+      function calculateAndDisplayRoute(directionsService, directionsDisplay) {
+        var start = document.getElementById('start').value;
+        var end = document.getElementById('end').value;
+        directionsService.route({
+          origin: start,
+          destination: end,
+          travelMode: 'DRIVING'
+        }, function(response, status) {
+          if (status === 'OK') {
+            directionsDisplay.setDirections(response);
+          } else {
+            window.alert('Directions request failed due to ' + status);
+          }
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMzBxHCjS9AKsG6CPUONJue6RJgv9twls&callback=initMap">
+    </script>
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+<script>
+	function alat() {
+		// body...
+		alert("Successful!");
+	}
+</script>
+</body>
+</html>

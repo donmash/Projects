@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+  <meta name="description" content="Aquaruim website">
+  <meta name="keywords" content="Aquaruim, nexus Aquaruim, Aquaruim website template">
+  <meta name="author" content="David (donmash) Marshal">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Nexus Aquaruim</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+	<link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body>
+	<div class="main" data-vide-bg="images/video1">
+	<div class="main2">
+	<div class="hometxt">
+		<span class="nexus"><img src="images/fish-logo2.png"></span>
+	</div>
+	
+	<div class="section">
+		<div class="navbar">
+			<div class="logo">
+				<a href="index.html"><img src="images/fish-logo1.png"></a>
+			</div>
+			<div class="nav">
+				<ul class="nav-list">
+			    <li class="nav-item"><a href="index.html" class="active">Home</a></li>
+			    <li class="nav-item"><a href="about.html">About us</a></li>
+			    <li class="nav-item"><a href="gallery.html">Gallery</a></li>
+			    <li class="nav-item"><a href="tour.html">Tour</a></li>
+			    <li class="nav-item"><a href="events.html">Events</a></li>
+			    <li class="nav-item"><a href="contact.html">Contact us</a></li>
+			    </ul>
+			</div>
+			<div id="mySidenav" class="sidenav">
+  				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  				<a href="index.html" class="active">Home</a>
+  				<a href="about.html">About us</a>
+  				<a href="gallery.html">Gallery</a>
+  				<a href="tour.html">Tour</a>
+  				<a href="events.html">Events</a>
+  				<a href="contact.html">Contact</a>
+			</div>
+	    </div>
+
+	    <span class="side" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+	    <div class="body">
+	    	<div class="pics">
+		    	<div class="container">
+					 <img src="images/turtle2.jpg" alt="Avatar" class="image">
+					 <a href="gallery.html"><div class="overlay">
+					    <div class="text">Visit Our Gallery</div>
+					 </div></a>
+				</div>
+				<div class="container">
+					 <img src="images/bg-main.jpg" alt="Avatar" class="image">
+					 <a href="tour.html"><div class="overlay">
+					    <div class="text">Take A Tour Now!</div>
+					 </div></a>
+				</div>
+				<div class="container">
+					 <img src="images/dolphin2.jpg" alt="Avatar" class="image">
+					 <a href="events.html"><div class="overlay">
+					    <div class="text">Attend Our Next Event</div>
+					 </div></a>
+				</div>
+			</div>
+			<!-- <div class="text">
+				<div class="txt">
+					<h2 style="color: transparent;">...</h2>
+				</div>
+				<div class="txt">
+					<h2>WELCOME</h2>
+				</div>
+				<div class="txt">
+					<h2>TO</h2>
+				</div>
+				<div class="txt">
+					<h2>NEXUS AQUARIUM</h2>
+				</div>
+			</div> -->
+	    	
+	    </div>
+	    <div class="footer">
+		   <p>&copy; <span class="nex">Nexus Aquaruim</span> 2017<a href="contact.html"><span class="social"><img src="images/facebook - Copy.jpg"><img src="images/instagram-icon--icon-search-engine-11 - Copy.png"><img src="images/twitter - Copy.png"></span><span class="feed">Feedback!</span></a></p>
+	    </div>
+	    
+  </div>
+  </div>
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/vide.js"></script>
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</body>
+</html>
