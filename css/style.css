@@ -1,0 +1,2078 @@
+/*css for index.html starts here*/
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html, body {
+    min-height: 100%;
+    width: 100%;
+ 	margin: 0;
+ 	padding: 0;
+ 	.overflow: hidden;
+ 	.font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+ 	font-family: 'Julius Sans One', sans-serif;
+}
+.main{
+	overflow: hidden;
+	margin: -10px 0px 0px 0px;
+	padding: 0;
+}
+.main2 {
+	width: 100%;
+	min-height: 100%;
+	.background: #222;
+	margin: -10px 0px 0px 0px;
+	padding: 0;
+	.width: 1309px;
+	.height: 670px;
+	border: 0.01px solid black;
+}
+.section {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  .left: 0;
+  .right: 0;
+  .margin: 0;
+  min-height: 100%;
+  width: 100%;
+  opacity: 0;
+  padding-top: 120px;
+  transition: 5s ease;
+  background: rgba(0, 0, 0, 0.5);
+}
+.hometxt{
+	margin: 335px auto;
+	padding: 0;
+	width: 20%;
+	opacity: 1;
+    transition: 5s ease;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    color: aqua;
+    border-radius: 50px;
+}
+.hometxt h1{
+	padding: 5px;
+}
+.main2:hover .hometxt{
+  opacity: 0;
+
+}
+
+.main2:hover .section{
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.5);
+
+}
+
+.body{
+	width: 80%;
+	text-align: center;
+	margin: 185px auto; 
+}
+.pics{
+	width: 80%
+	margin 0 auto;
+}
+.container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin: 10px;
+  .border: 4px solid white;
+  border-radius: 450px;
+}
+
+.image {
+  display: block;
+  width: 200px;
+  height: 200px;
+  .height: auto;
+  border-radius: 450px;
+  border: 4px solid white;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  .left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  padding: 40px;
+  transition: .5s ease;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 450px;
+}
+
+.container:hover .overlay {
+  opacity: 0.7;
+  /*made by Graham Chukwumaobi*/
+}
+
+.text {
+	margin-top: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    .top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.text .txt{
+	transition: .5s ease;
+}
+.section{
+	background: rgba(0, 0, 0, 0.5);
+}
+/* The navigation bar */
+.logo{
+	display: inline-block;
+	width: 20%;
+	margin: 20px;
+	font-size: 25px;
+	font-weight: bolder;
+}
+/*.logo .logofst{
+	color: aqua;
+}
+.logo .logosnd{
+	color: darkorange;
+}*/
+.nav{
+	float: right;
+}
+.nav {
+  position:relative;
+  display:inline-block;
+  font-size:24px;
+  font-weight:900;
+}
+.nav-list {
+  
+}
+.nav-item {
+  float:left;
+  *display:inline;
+  zoom:1;
+  list-style: none;
+}
+.nav-item a {
+  display:block;
+  padding:15px 20px;
+  color: aqua;
+  .background:#34495E;
+  text-decoration: none;
+}
+.nav-item:first-child a {
+  border-radius:5px 0 0 5px;
+}
+.nav-item:last-child a {
+  border-radius:0 5px 5px 0;
+}
+.nav-item a:hover {
+  background:#2C3E50;
+}
+.navbar{
+	margin-top: -100px;
+	padding: 0;
+}
+.navbar a:hover{
+	color: darkgray;
+	.text-decoration: underline;
+	padding-bottom: 3px;
+	border-bottom: 3px solid darkorange;
+}
+.navbar .active{
+	color: darkorange;
+}
+.footer{
+	background: rgba(0, 0, 0, 0.5);
+	font-size: 18px;
+	height: 20px;
+	color: white;
+	padding: 40px;
+	width: 100%;
+}
+.footer .social{
+	margin: 0;
+	margin-left: 25px;
+	padding: 0;
+	.padding-right: 45px;
+}
+.footer .social img{
+	margin-right: 20px;
+}
+.footer .feed{
+	float: right;
+	background-color: #5b3303;
+	border-radius: 20px;
+	margin-right: 20px;
+	padding: 2px;
+	font-weight: bold;
+	color: white;
+}
+/*css for index.html page ends here*/
+
+/*CSS for tour.html starts here*/
+
+.gallery_tour {
+	background: #222;
+	color: #eee;
+	.margin-top: 20px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-family: 'Julius Sans One', sans-serif;
+	width: 100%;
+}
+.gallery_tour .navbar{
+	background-color: #222;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	position: fixed;
+	height: 80px;
+}
+.gallery_tour h3{
+	text-transform: uppercase;
+	text-align: center;
+	width: 20%;
+	padding: 10px 0;
+	margin: 0 auto;
+	color: white;
+	font-size: 24px;
+	.background: rgba(255, 255, 255, 0.1);
+	.border-left: 2px solid rgba(255, 255, 255, 0.65);
+	.border-right: 2px solid rgba(255, 255, 255, 0.65);
+}
+
+.gallery_tour h4{
+     width: 40%;
+     margin: 0 auto;
+     text-align: center;
+}
+.thumbnails img {
+	height: 80px;
+	width: 80px;
+	border: 4px solid #555;
+	padding: 1px;
+	margin: 0 10px 10px 0;
+}
+.gcont{
+	z-index: -1;
+}
+.thumbnails img:hover {
+	border: 4px solid #00ccff;
+	cursor:pointer;
+}
+
+.preview img {
+	padding: 1px;
+	width: 800px;
+	border: 4px solid #555;
+}
+
+/*CSS for tour.html ends here
+
+/*CSS for gallery.html starts here*/
+
+.litebox {
+	background: #222;
+	background-size: cover;
+}
+.litebox .navbar{
+	background-color: #222;
+	margin: 0;
+	margin-bottom: 5px;
+	padding: 0px;
+	width: 100%;
+	position: fixed;
+	height: 50px;
+	z-index: 2;
+}
+
+#lightbox {
+	margin: 10px auto;
+	width: 50%; 
+	border-bottom: 1px solid #ccc;
+	z-index: -1;
+}
+#lightbox h3 {
+	text-transform: uppercase;
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0;
+	color: white;
+	font-size: 24px;
+	.background: rgba(255, 255, 255, 0.1);
+	.border-left: 2px solid rgba(255, 255, 255, 0.65);
+	.border-right: 2px solid rgba(255, 255, 255, 0.65);
+	font-family: arial, verdana, tahoma;
+	width: 90%;
+}
+#lightbox ul {
+	overflow: hidden;
+}
+/*Image styles*/
+#lightbox ul li {
+	.float: left;
+	padding: 10px;
+	background: grey;
+	margin: 0 5px 25px 18px;
+	list-style-type: none;
+	position: relative;
+	cursor: pointer;
+	border-radius: 25px;
+	display: inline-block;
+}
+/*No right margin for images in the 2nd column*/
+.#lightbox ul li:nth-child(even) {
+	margin-right: 0;
+}
+#lightbox ul li img {
+	display: block;
+	border-radius: 25px;
+}
+
+/*Image titles*/
+#lightbox .image_title {
+	width: 170px; height: 170px;
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	top: 0; left: 0;
+	display: table;
+	/*Hover effect - default state*/
+	opacity: 0;
+	transition: all 1s;
+}
+#lightbox .title {
+	color: #fff;
+	background: rgba(0, 0, 0, 0.5);
+	text-transform: uppercase;
+	font-size: 14px;
+	text-align: center;
+	/*Vertical center align*/
+	display: table-cell;
+	vertical-align: middle;
+	/*Hover effect - default state*/
+	transform: scale(0.2);
+	transition: all 1s;
+}
+/*Zoom icon over each title using iconfont and pseudo elements*/
+#lightbox .title::before {
+	content: 'click';
+	font-family: websymbols;
+	font-size: 24px;
+	color: #fff;
+	opacity: 0.5;
+	display: block;
+	line-height: 36px;
+}
+/*Hover states*/
+#lightbox li:hover {
+	box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, 0.75);
+}
+#lightbox li:hover .image_title {
+	opacity: 1;
+}
+#lightbox li:hover .title {
+	transform: scale(1);
+}
+/*Lightbox element style*/
+.lb_backdrop {
+	background: rgba(0, 0, 0, 0.9);
+	position: fixed;
+	top: 0; left: 0; right: 0; bottom: 0;
+}
+/*The canvas contains the larger image*/
+.lb_canvas {
+	background: grey;
+	width: 50px; height: 50px;
+	position: fixed;
+	top: 0; left: 0; /*Will be centered later by Jquery*/
+	box-shadow: 0 0 20px 5px black;
+	padding: 10px;
+	border-radius: 25px;
+	overflow: hidden;
+	z-index: 2;
+}
+/*A separate class for loading GIF, for easy Jquery handling*/
+.lb_canvas.loading {
+	background: grey;
+}
+/*Lightbox Controls*/
+.lb_controls {
+	width: 400px; 
+	background: rgba(0, 0, 0, 0.75);
+	position: fixed;
+	bottom: 10px;
+	color: white;
+	/*To horizontally center it*/
+	left: 0; right: 0; margin: 0 auto;
+	z-index: 3; 
+}
+.lb_controls span {
+	line-height: 30px;
+	height: 60px;
+}
+.lb_controls span.inactive {
+	opacity: 0.25;
+}
+.lb_previous, .lb_next {
+	position: absolute;
+	top: 0;
+	padding: 17px 12px;
+	font-family: websymbols;
+	font-size: 14px;
+	background: black;
+	cursor: pointer;
+}
+.lb_previous {
+	left: 0;
+	border-right: 1px solid rgba(255, 255, 255, 0.1);
+	padding: 17px 12px;
+}
+.lb_next {
+	right: 0;
+	border-left: 1px solid rgba(255, 255, 255, 0.1);
+	/*made by Graham Chukwumaobi*/
+}
+.lb_title {
+	text-align: center;
+	display: block;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 5px 0;
+	font-weight: bold;
+}
+
+
+/*CSS for gallery.html ends here*/
+
+/*CSS for events.html starts here*/
+.events{
+	background-color: #222;
+}
+.events .navbar{
+	background-color: #222;
+	margin: 0;
+	margin-bottom: 10px;
+	padding: 0;
+	width: 100%;
+	position: fixed;
+	height: 60px;
+	z-index: 2;
+}
+.events h3{
+	text-transform: uppercase;
+	text-align: center;
+	width: 35%;
+	padding: 10px 0;
+	margin: 0 auto;
+	color: white;
+	font-size: 24px;
+	.background: rgba(255, 255, 255, 0.1);
+	.border-left: 2px solid rgba(255, 255, 255, 0.65);
+	.border-right: 2px solid rgba(255, 255, 255, 0.65);
+}
+.time{
+	z-index: -1;
+}
+.events .timeline {
+    position: relative;
+    max-width: 90%;
+    margin: 30px auto;
+    padding-right: 15px;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+/* Container around content */
+.events .container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+/* The circles on the timeline */
+.events .container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: white;
+    border: 4px solid #FF9F55;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+    left: 0;
+}
+
+/* Place the container to the right */
+.right {
+    left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+    left: -16px;
+}
+
+/* The actual content */
+.content {
+    padding: 25px 15px;
+    background-color: gray;
+    position: relative;
+    border-radius: 15px;
+    min-height: 270px;
+    font-family: tahoma;
+    
+}
+.content img{
+	border-radius: 20px;
+	width: 48%;
+	float: left;
+	margin: 7px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media all and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .timeline::after {
+    left: 31px;
+  }
+  
+  /* Full-width containers */
+.events .container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+  
+  /* Make sure that all arrows are pointing leftwards */
+.events .container::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+    left: 15px;
+  }
+  
+  /* Make all right containers behave like the left ones */
+  .right {
+    left: 0%;
+  }
+}
+
+.events .btn {
+    background-color: #5b3303;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    width: 150px;
+}
+
+.events .btn:hover {
+    background-color: #45a049;
+}
+/* The Modal (background) */
+.events .modal {
+    display: none; 
+    position: fixed; 
+    z-index: 3;
+    padding: 0; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    font-family: tahoma; 
+}
+
+
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4;
+    text-align: center;
+}
+
+
+.events @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+.events @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: aqua;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 6px;
+    background-color: #222;
+    color: white;
+}
+
+.modal-body {
+	padding: 2px 16px;
+	color: black;
+}
+
+.modal-footer {
+    padding: 2px 6px;
+    background-color: #222;
+    color: white;
+}
+.events .modal input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+.events .modal input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.events .modal input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.events .modal input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.events .modal {
+    width: 100%;
+	transition: 5s ease;
+	margin-top: 15px;
+	padding: 20px 0px;
+	border-radius: 10px;
+}
+.events .footer{
+	margin-top: 80px;
+}
+/*CSS for events.html ends here*/
+
+/*CSS for about.html starts here*/
+
+.about{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	min-height: 100%;
+	background-image: url('../images/bg-main5.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	.background-color: #222;
+}
+.about .navbar{
+	background: rgba(0, 0, 0, 0.85);
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	position: fixed;
+	height: 80px;
+}
+.about .abouttxt{
+	width: 100%;
+	.height: 587px;
+	padding: 100px 250px 250px 250px;
+	background: rgba(0, 0, 0, 0.80);
+	color: white;
+	font-weight: bolder;
+	.font-size: 24px;
+	font-family: tahoma;
+}
+.about .abouttxt h2{
+	background: rgba(0, 0, 0, 0.82);
+	border-radius: 3px;
+}
+.about .abouttxt p{
+	background: rgba(0, 0, 0, 0.82);
+	padding: 20px;
+	border-radius: 5px;
+	text-indent: 100px;
+}
+.about h2{
+	text-transform: uppercase;
+	text-align: center;
+	width: 35%;
+	padding: 10px 0;
+	margin: 0 auto 60px auto;
+	color: white;
+	font-size: 24px;
+	.background: rgba(255, 255, 255, 0.1);
+	.border-left: 2px solid rgba(255, 255, 255, 0.65);
+	.border-right: 2px solid rgba(255, 255, 255, 0.65);
+}
+.about .footer{
+	background: rgba(0, 0, 0, 0.85);
+}
+/*CSS for about.html ends here*/
+
+/*CSS for contact.html starts here*/
+
+.contact{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #222;
+}
+.contact .navbar{
+	background-color: #222;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	.position: fixed;
+	height: 40px;
+}
+.contact .main{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.contact .main .map{
+	width: 70%;
+	height: 700px;
+	float: left;
+	margin: 70px 0px 0px 0px;
+	padding: 55px;
+}
+.contact .main .contactcont{
+	width: 26%;
+	height: 700px;
+	margin: 80px 0px 0px 0px;
+	padding: 0;
+}
+.contact .main .map, .contact .main .contactcont{
+	display: inline-block;
+}
+.contact .main .map #map {
+    height: 100%;
+    width: 50%;
+    border-radius: 5px;
+    .border: 5px solid aqua;
+    color: white;
+}
+.contact .main .map #floating-panel {
+    position: absolute;
+    top: 10px;
+    left: 25%;
+    z-index: 15;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #999;
+    text-align: center;
+    font-family: 'Roboto','sans-serif';
+    line-height: 30px;
+    padding-left: 10px;
+    border-radius: 3px;
+}
+.contact .main .map #right-panel {
+    font-family: 'Roboto','sans-serif';
+    line-height: 30px;
+    padding-left: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    .border: 5px solid aqua;
+}
+
+.contact .main .map #right-panel select, .contact .main .map #right-panel input {
+    font-size: 15px;
+}
+
+.contact .main .map #right-panel select {
+    width: 100%;
+}
+
+.contact .main .map #right-panel i {
+    font-size: 12px;
+}
+.contact .main .map #right-panel {
+    height: 100%;
+    .float: right;
+    width: 390px;
+    overflow: auto;
+}
+.contact .main .map #map {
+    margin-right: 10px;
+    float: left;
+}
+.contact .main .map #floating-panel {
+    background: #fff;
+    padding: 5px;
+    font-size: 14px;
+    font-family: Arial;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 2px rgba(33, 33, 33, 0.4);
+    display: none;
+    color: black;
+}
+@media print {
+    .contact .main .map #map {
+          height: 500px;
+          margin: 0;
+        }
+    .contact .main .map #right-panel {
+          float: none;
+          width: auto;
+        }
+      }
+.contact .navbar{
+	background-color: #222;
+}
+.contact .contactcont{
+	text-align: center;
+	width: 100%;
+}
+.main .contacttxt{
+	margin: 0px auto;
+	padding: 0;
+	width: 40%;
+	opacity: 1;
+    transition: 5s ease;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    color: aqua;
+    border-radius: 5px;
+    .float: left;
+}
+.contact .contactcont .form{
+	.opacity: 0;
+	width: 100%;
+	transition: 5s ease;
+	margin-top: 30px;
+	padding: 50px 0px;
+	border-radius: 10px;
+}
+.contact h3{
+	text-transform: uppercase;
+	text-align: center;
+	width: 35%;
+	padding: 10px 0;
+	margin: 20px auto -50px auto;
+	color: white;
+	font-size: 24px;
+	.background: rgba(255, 255, 255, 0.1);
+	.border-left: 2px solid rgba(255, 255, 255, 0.65);
+	.border-right: 2px solid rgba(255, 255, 255, 0.65);
+}
+.contact .form input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    .border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+.contact .form input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    .border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.contact .form input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact .form input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.contact .form {
+    border-radius: 5px;
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
+.contact .footer{
+	text-align: center;
+}
+/*CSS for contact.html ends here*/
+
+.sidenav, .side, .closebtn{
+	display: none;
+}
+/*Media Queries Start Here*/
+/*Media query for navbar starts here*/
+@media only screen and (min-width: 500px) and (max-width: 1000px) {
+  html,body{
+  	width: 100%;
+  	margin: 0;
+  	padding: 0;
+  }
+  .nav{
+  	display: none;
+  }
+  .sidenav, .side, .closebtn{
+  	display: block;
+  }
+  .navbar{
+  	text-align: center;
+  }
+  .main .side{
+  	margin-top: -85px;
+  }
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: grey;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: aqua;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.main{
+	width: 100%;
+	min-height: 100%;
+	overflow: visible;
+	margin-top: -337px;
+}
+.main2{
+	width: 100%;
+	height: 100%
+}
+.main .hometxt{
+	padding-top: 300px;
+	background-color: rgba(0, 0, 0, 0);
+}
+.main .section .footer{
+	margin-bottom: -20px;
+}
+.footer .social{
+	display: none;
+}
+
+/*media query for about page*/
+.about{
+	width: auto;
+	height: 100%;
+	display: block;
+}
+.about .side{
+  	.padding-top: 20px;
+  	margin-bottom: 30px;
+  }
+ .about .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: grey;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.about .navbar{
+	background-color: rgba(0,0,0,0);
+	height: 20px;
+}
+.about .abouttxt{
+	width: 100%;
+	padding: 10px;
+	background: rgba(0, 0, 0, 0);
+	color: white;
+	font-weight: bold;
+	.font-size: 24px;
+}
+.about .abouttxt h2{
+	background: rgba(0, 0, 0, 0.82);
+	border-radius: 3px;
+}
+.about .abouttxt p{
+	background: rgba(0, 0, 0, 0.82);
+	padding: 5px;
+	border-radius: 5px;
+	text-indent: 100px;
+	width: 94%;
+	margin: 0 auto;
+}
+.about h2{
+	text-transform: uppercase;
+	text-align: center;
+	width: 40%;
+	padding: 10px 0;
+	margin: 0 auto 10px auto;
+	color: white;
+	font-size: 24px;
+
+}
+.about .footer{
+	display: block;
+}
+
+/*media query for gallery starts here*/
+.litebox {
+	background: #222;
+	background-size: cover;
+	font-family: arial, verdana, tahoma;
+	width: 100%;
+}
+.litebox .side{
+  	padding-top: 30px;
+  	margin: 0;
+  	position: fixed;
+  }
+ .litebox .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: grey;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.litebox .navbar{
+	background-color: #222;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	position: fixed;
+	height: 40px;
+	z-index: 2;
+}
+
+#lightbox {
+	margin: 10px auto;
+	width: 50%; 
+	border-bottom: 1px solid #ccc;
+	z-index: -1;
+}
+#lightbox h3 {
+	text-transform: uppercase;
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0;
+	color: white;
+	width: 50%;
+	font-size: 24px;
+	.background: rgba(255, 255, 255, 0.1);
+	.border-left: 2px solid rgba(255, 255, 255, 0.65);
+	.border-right: 2px solid rgba(255, 255, 255, 0.65);
+}
+#lightbox ul {
+	overflow: hidden;
+	width: 100%;
+}
+/*Image styles*/
+#lightbox ul li {
+	.float: left;
+	padding: 10px;
+	background: grey;
+	margin: 10px;
+	list-style-type: none;
+	position: relative;
+	cursor: pointer;
+	border-radius: 25px;
+	display: inline-block;
+	width: 43%;
+}
+/*No right margin for images in the 2nd column*/
+.#lightbox ul li:nth-child(even) {
+	margin-right: 0;
+}
+#lightbox ul li img {
+	display: block;
+	border-radius: 25px;
+	width: 100%;
+}
+
+/*Image titles*/
+#lightbox .image_title {
+	width: 170px; height: 170px;
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	top: 0; left: 0;
+	display: table;
+	/*Hover effect - default state*/
+	opacity: 0;
+	transition: all 1s;
+}
+#lightbox .title {
+	color: #fff;
+	background: rgba(0, 0, 0, 0.5);
+	text-transform: uppercase;
+	font-size: 14px;
+	text-align: center;
+	/*Vertical center align*/
+	display: table-cell;
+	vertical-align: middle;
+	/*Hover effect - default state*/
+	transform: scale(0.2);
+	transition: all 1s;
+}
+/*Zoom icon over each title using iconfont and pseudo elements*/
+#lightbox .title::before {
+	content: 'click';
+	font-family: websymbols;
+	font-size: 24px;
+	color: #fff;
+	opacity: 0.5;
+	display: block;
+	line-height: 36px;
+}
+/*Hover states*/
+#lightbox li:hover {
+	box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, 0.75);
+}
+#lightbox li:hover .image_title {
+	opacity: 1;
+}
+#lightbox li:hover .title {
+	transform: scale(1);
+}
+/*Lightbox element style*/
+.lb_backdrop {
+	background: rgba(0, 0, 0, 0.9);
+	position: fixed;
+	top: 0; left: 0; right: 0; bottom: 0;
+}
+/*The canvas contains the larger image*/
+.lb_canvas {
+	background: grey;
+	width: 20px; height: 20px;
+	position: fixed;
+	top: 0; left: 0; /*Will be centered later by Jquery*/
+	box-shadow: 0 0 20px 5px black;
+	padding: 20px;
+	border-radius: 25px;
+	overflow: hidden;
+	z-index: 2;
+}
+/*A separate class for loading GIF, for easy Jquery handling*/
+.lb_canvas.loading {
+	background: grey;
+}
+/*Lightbox Controls*/
+.lb_controls {
+	width: 400px; 
+	background: rgba(0, 0, 0, 0.75);
+	position: fixed;
+	bottom: 10px;
+	color: white;
+	/*To horizontally center it*/
+	left: 0; right: 0; margin: 0 auto;
+	z-index: 3; 
+}
+.lb_controls span {
+	line-height: 30px;
+	height: 60px;
+}
+.lb_controls span.inactive {
+	opacity: 0.25;
+}
+.lb_previous, .lb_next {
+	position: absolute;
+	top: 0;
+	padding: 17px 12px;
+	font-family: websymbols;
+	font-size: 14px;
+	background: black;
+	cursor: pointer;
+}
+.lb_previous {
+	left: 0;
+	border-right: 1px solid rgba(255, 255, 255, 0.1);
+	padding: 17px 12px;
+}
+.lb_next {
+	right: 0;
+	border-left: 1px solid rgba(255, 255, 255, 0.1);
+	/*made by Graham Chukwumaobi*/
+}
+.lb_title {
+	text-align: center;
+	display: block;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 5px 0;
+	font-weight: bold;
+}
+.litebox .footer{
+	display: block;
+}
+
+/*Media query for contact page starts here*/
+.contact{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #222;
+	display: block;
+}
+.contact .navbar{
+	background-color: #222;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	.position: fixed;
+	height: 40px;
+}
+.contact .main{
+	width: 100%;
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.contact .main h3{
+	width: 50%;
+}
+.contact .main .map{
+	width: 100%;
+	min-height: 700px;
+	float: none;
+	margin: 70px 0px 580px 0px;
+	padding: 55px;
+}
+.contact .main .contactcont{
+	width: 84%;
+	height: 700px;
+	margin: 80px auto 10px auto;
+	padding: 0;
+}
+.contact .main .map, .contact .main .contactcont{
+	display: block;
+}
+.contact .main .map #map {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    .border: 5px solid aqua;
+    color: white;
+}
+.contact .main .map #map, .contact .main #right-panel{
+	display: block;
+}
+.contact .main .map #floating-panel {
+    position: absolute;
+    top: 10px;
+    left: 25%;
+    z-index: 15;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #999;
+    text-align: center;
+    font-family: 'Roboto','sans-serif';
+    line-height: 30px;
+    padding-left: 10px;
+    border-radius: 3px;
+}
+.contact .main .map #right-panel {
+	width: 100%;
+    font-family: 'Roboto','sans-serif';
+    line-height: 30px;
+    padding-left: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    .border: 5px solid aqua;
+}
+
+.contact .main .map #right-panel select, .contact .main .map #right-panel input {
+    font-size: 15px;
+}
+
+.contact .main .map #right-panel select {
+    width: 100%;
+}
+.contact .contacttxt{
+	width: 50%;
+}
+
+/*media query for events starts here*/
+.events .side{
+  	padding-top: 30px;
+  	margin: 0;
+  	position: fixed;
+  }
+ .events .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    background-color: grey;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.events .navbar{
+	height: 20px;
+	z-index: 0;
+	position: unset;
+}
+.events .time h3{
+	width: 50%;
+}
+.events .timeline{
+	padding: 10px;
+}
+.events .timeline .content{
+	min-height: 180px;
+	padding: 15px;
+	font-size: 12px;
+}
+.events .modal {
+    display: none; 
+    position: fixed; 
+    z-index: 3;
+    padding: 0; 
+    left: 0;
+    top: 0;
+    width: 74%; 
+    height: 100%;
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    margin: 0 auto;  
+}
+.events .modal .modal-content{
+	width: 100%;
+}
+
+/*media query for tour starts here*/
+.gallery_tour .side{
+  	padding-top: 0;  	
+  	margin: 0;
+  	margin-top: -45px;
+  	position: fixed;
+  	z-index: 0;
+  }
+.gallery_tour  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    background-color: grey;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.gallery_tour {
+	background: #222;
+	color: #eee;
+	.margin-top: 20px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-family: 'Julius Sans One', sans-serif;
+	width: 100%;
+}
+.gallery_tour .navbar{
+	background-color: #222;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	position: fixed;
+	height: 80px;
+}
+.gallery_tour h3{
+	text-transform: uppercase;
+	text-align: center;
+	width: 20%;
+	padding: 10px 0;
+	margin: 0 auto;
+	color: white;
+	font-size: 24px;
+	.background: rgba(255, 255, 255, 0.1);
+	.border-left: 2px solid rgba(255, 255, 255, 0.65);
+	.border-right: 2px solid rgba(255, 255, 255, 0.65);
+}
+
+.gallery_tour h4{
+     width: 50%;
+     margin: 0 auto;
+     text-align: center;
+}
+.thumbnails img {
+	width: 42%;
+	height: 200px;
+	border: 4px solid #555;
+	padding: 1px;
+	margin: 0 10px 10px 0;
+}
+.gcont{
+	z-index: -1;
+}
+.thumbnails img:hover {
+	border: 4px solid #00ccff;
+	cursor:pointer;
+}
+
+.preview img {
+	display: none;
+}
+
+
+}
+
+
+@media only screen and (max-width: 500px) {
+	html,body{
+  	width: 100%;
+  	margin: 0;
+  	padding: 0;
+  }
+  .nav{
+  	display: none;
+  }
+  .sidenav, .side, .closebtn{
+  	display: block;
+  }
+  .navbar{
+  	text-align: center;
+  }
+  .main .side{
+  	margin-top: -85px;
+  }
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: grey;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: aqua;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.main{
+	width: 100%;
+	min-height: 100%;
+	overflow: visible;
+	margin-top: -337px;
+}
+.main2{
+	width: 100%;
+	height: 100%
+}
+.main .hometxt{
+	padding-top: 300px;
+	background-color: rgba(0, 0, 0, 0);
+}
+.main .section .footer{
+	margin-bottom: -10px;
+}
+
+.footer .social{
+	display: none;
+}
+
+/*media query for about page*/
+.about{
+	width: auto;
+	height: 100%;
+	display: block;
+}
+.about .side{
+  	.padding-top: 20px;
+  	margin-bottom: 30px;
+  }
+ .about .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: grey;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.about .navbar{
+	z-index: 0;
+	background-color: rgba(0,0,0,0);
+	height: 20px;
+}
+.about .abouttxt{
+	width: 100%;
+	padding: 10px;
+	background: rgba(0, 0, 0, 0);
+	color: white;
+	font-weight: bold;
+	.font-size: 24px;
+}
+.about .abouttxt h2{
+	background: rgba(0, 0, 0, 0.82);
+	border-radius: 3px;
+}
+.about .abouttxt p{
+	background: rgba(0, 0, 0, 0.82);
+	padding: 5px;
+	border-radius: 5px;
+	text-indent: 100px;
+	width: 94%;
+	margin: 0 auto;
+}
+.about h2{
+	text-transform: uppercase;
+	text-align: center;
+	width: 60%;
+	padding: 10px 0;
+	margin: 0 auto 10px auto;
+	color: white;
+	font-size: 24px;
+
+}
+.about .footer{
+	display: block;
+}
+/*media query for gallery starts here*/
+.litebox {
+	background: #222;
+	background-size: cover;
+	font-family: arial, verdana, tahoma;
+	width: 100%;
+}
+.litebox .side{
+  	padding-top: 29px;
+  	margin: 0;
+  	position: fixed;
+  }
+ .litebox .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: grey;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.litebox .navbar{
+	background-color: #222;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	position: fixed;
+	height: 40px;
+	z-index: 2;
+}
+
+#lightbox {
+	margin: 10px auto;
+	width: 50%; 
+	border-bottom: 1px solid #ccc;
+	z-index: -1;
+}
+#lightbox h3 {
+	text-transform: uppercase;
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0;
+	color: white;
+	width: 80%;
+	font-size: 24px;
+	.background: rgba(255, 255, 255, 0.1);
+	.border-left: 2px solid rgba(255, 255, 255, 0.65);
+	.border-right: 2px solid rgba(255, 255, 255, 0.65);
+}
+#lightbox ul {
+	overflow: hidden;
+	width: 100%;
+}
+/*Image styles*/
+#lightbox ul li {
+	.float: left;
+	padding: 10px;
+	background: grey;
+	margin: 10px;
+	list-style-type: none;
+	position: relative;
+	cursor: pointer;
+	border-radius: 25px;
+	display: inline-block;
+	width: 90%;
+}
+/*No right margin for images in the 2nd column*/
+#lightbox ul li:nth-child(even) {
+	margin-right: 0;
+}
+#lightbox ul li img {
+	display: block;
+	border-radius: 25px;
+	width: 100%;
+}
+
+/*Image titles*/
+#lightbox .image_title {
+	width: 170px; height: 170px;
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	top: 0; left: 0;
+	display: table;
+	/*Hover effect - default state*/
+	opacity: 0;
+	transition: all 1s;
+}
+#lightbox .title {
+	color: #fff;
+	background: rgba(0, 0, 0, 0.5);
+	text-transform: uppercase;
+	font-size: 14px;
+	text-align: center;
+	/*Vertical center align*/
+	display: table-cell;
+	vertical-align: middle;
+	/*Hover effect - default state*/
+	transform: scale(0.2);
+	transition: all 1s;
+}
+/*Zoom icon over each title using iconfont and pseudo elements*/
+#lightbox .title::before {
+	content: 'click';
+	font-family: websymbols;
+	font-size: 24px;
+	color: #fff;
+	opacity: 0.5;
+	display: block;
+	line-height: 36px;
+}
+/*Hover states*/
+#lightbox li:hover {
+	box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, 0.75);
+}
+#lightbox li:hover .image_title {
+	opacity: 1;
+}
+#lightbox li:hover .title {
+	transform: scale(1.4);
+}
+/*Lightbox element style*/
+.lb_backdrop {
+	background: rgba(0, 0, 0, 0.9);
+	position: fixed;
+	top: 0; left: 0; right: 0; bottom: 0;
+}
+/*The canvas contains the larger image*/
+.lb_canvas {
+	display: none;
+}
+/*A separate class for loading GIF, for easy Jquery handling*/
+.lb_canvas.loading {
+	display: none;
+}
+/*Lightbox Controls*/
+.lb_controls {
+	display: none;
+}
+.lb_controls span {
+	display: none;
+}
+.lb_controls span.inactive {
+	display: none;
+}
+.lb_previous, .lb_next {
+	display: none;
+}
+.lb_previous {
+	display: none;
+}
+.lb_next {
+	display: none;
+	/*made by Graham Chukwumaobi*/
+}
+.lb_title {
+	display: none;
+}
+.litebox .footer{
+	display: block;
+}
+
+/*Media query for contact page starts here*/
+.contact{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #222;
+	display: block;
+}
+.contact .navbar{
+	background-color: #222;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	.position: fixed;
+	height: 40px;
+}
+.contact .main{
+	width: 100%;
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.contact .main h3{
+	width: 80%;
+}
+.contact .main .map{
+	width: 100%;
+	min-height: 700px;
+	float: none;
+	margin: 70px 0px 580px 0px;
+	padding: 55px;
+}
+.contact .main .contactcont{
+	width: 84%;
+	height: 700px;
+	margin: 80px auto 10px auto;
+	padding: 0;
+}
+.contact .main .map, .contact .main .contactcont{
+	display: block;
+}
+.contact .main .map #map {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    .border: 5px solid aqua;
+    color: white;
+}
+.contact .main .map #map, .contact .main #right-panel{
+	display: block;
+}
+.contact .main .map #floating-panel {
+    position: absolute;
+    top: 10px;
+    left: 25%;
+    z-index: 15;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #999;
+    text-align: center;
+    font-family: 'Roboto','sans-serif';
+    line-height: 30px;
+    padding-left: 10px;
+    border-radius: 3px;
+}
+.contact .main .map #right-panel {
+	width: 100%;
+    font-family: 'Roboto','sans-serif';
+    line-height: 30px;
+    padding-left: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    .border: 5px solid aqua;
+}
+
+.contact .main .map #right-panel select, .contact .main .map #right-panel input {
+    font-size: 15px;
+}
+
+.contact .main .map #right-panel select {
+    width: 100%;
+}
+.contact .contacttxt{
+	width: 70%;
+}
+/*media query for events starts here*/
+.events .side{
+  	padding-top: 30px;
+  	margin: 0;
+  	position: fixed;
+  }
+ .events .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    background-color: grey;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.events .navbar{
+	height: 20px;
+	z-index: 0;
+	position: unset;
+}
+.events .h2{
+	width: 80%;
+}
+.events .timeline{
+	padding: 10px;
+}
+.events .timeline .content{
+	min-height: 205px;
+	padding: 15px;
+	font-size: 12px;
+}
+.events .modal {
+    display: none; 
+    position: fixed; 
+    z-index: 3;
+    padding: 0; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    margin: 0 auto;  
+}
+.events .modal .modal-content{
+	width: 100%;
+}
+.events .footer{
+	width: 100%;
+	display: block;
+	padding: 0px;
+	height: 30px;
+}
+
+/*media query for tour starts here*/
+.gallery_tour .side{
+  	padding-top: 0;  	
+  	margin: 0;
+  	margin-top: -45px;
+  	position: fixed;
+  	z-index: 0;
+  }
+.gallery_tour  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    background-color: grey;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.gallery_tour {
+	background: #222;
+	color: #eee;
+	.margin-top: 20px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-family: 'Julius Sans One', sans-serif;
+	width: 100%;
+}
+.gallery_tour .navbar{
+	background-color: #222;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	position: fixed;
+	height: 80px;
+}
+.gallery_tour h3{
+	text-transform: uppercase;
+	text-align: center;
+	width: 20%;
+	padding: 10px 0;
+	margin: 0 auto;
+	color: white;
+	font-size: 24px;
+	.background: rgba(255, 255, 255, 0.1);
+	.border-left: 2px solid rgba(255, 255, 255, 0.65);
+	.border-right: 2px solid rgba(255, 255, 255, 0.65);
+}
+
+.gallery_tour h4{
+     width: 60%;
+     margin: 0 auto;
+     text-align: center;
+}
+.thumbnails img {
+	width: 80%;
+	height: 200px;
+	border: 4px solid #555;
+	padding: 1px;
+	margin: 0 10px 10px 0;
+}
+.gcont{
+	z-index: -1;
+}
+.thumbnails img:hover {
+	border: 4px solid #00ccff;
+	cursor:pointer;
+}
+
+.preview img {
+	display: none;
+}
+
+
+}
+
+/*Media query for navbar ends here*/
+
+/*Media Queries end here
